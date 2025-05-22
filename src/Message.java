@@ -11,7 +11,5 @@ public abstract class Message {
         this.content = content;
     }
 
-    public void send(String username, String password) {
-        return;
-    }
+    public abstract void send(String username, String password);
 }
